@@ -1,0 +1,29 @@
+:root {
+  --theme-color: white;
+  --primary-color: gold;
+  --secundary-color: white;
+  --text-color-inverse: white;
+  --menu-mobile-text-color: white;
+  --text-color: grey;
+  --navbar-shallow-color: rgb(206 206 206);
+  --menu-mobile-background-color: #811d34;
+  --line-color: #811d34;
+}
+.acciones {
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+.editar,
+.eliminar {
+  margin: 5px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 850;
+  color: var(--secundary-color);
+  font-family: "Times New Roman", Times, serif;
+}

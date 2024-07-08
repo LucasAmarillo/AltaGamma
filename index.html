@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALTA GAMA SOMELIER</title>
+
+    <!-- Estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/Carrousel.css" />
+    <link rel="stylesheet" href="assets/css/iframe_contact.css" />
+    <link rel="stylesheet" href="assets/css/history.css" />
+    <link rel="stylesheet" href="assets/css/productos.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="index.html" class="logo">Alta Gamma Sommelier</a>
+        <button class="open-menu" aria-label="Menu aquí">
+          <img src="assets/img/icono_menu.svg" alt="Menu aquí" />
+        </button>
+        <ul class="menu">
+          <li>
+            <button class="close-menu" aria-label="Cierra aquí">
+              <img src="assets/img/icono_menu.svg" alt="Cierra aquí" />
+            </button>
+          </li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#history">Historia</a></li>
+          <li><a href="#products">Productos </a></li>
+          <li><a href="#contacto">Contactanos</a></li>
+          <li><a href="accessCms.html">cms</a></li>
+          <li><a href="shop.html">Shop 🛒</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Corousel-nosotros -->
+    <main class="container contenido-principal">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2500"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/bodega5.jpg"
+              class="img-bod d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nuestra bodega</h5>
+              <p>
+                Situada en el "valle de uco" nuestra bodega alberga los mejores
+                vinos
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/bodega2.jpg"
+              class="img-bod d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Estacionado previo a envasar</h5>
+              <p>
+                Vinos estacionados para lograr unas notas profundas e
+                inconfundible
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/bodega8.PNG"
+              class="img-bod d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>La mas alta calidad</h5>
+              <p>
+                Nuestro equipo cuida todos los detalles para llevar la calidad
+                al siguiente nivel
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="Contentpublic">
+        <div class="card Envios">Envios a todo el pais</div>
+        <div class="card calidad">La mejor calidad</div>
+        <div class="card experiencia">40 años de experiencia</div>
+      </div>
+      <div class="container" id="nosotros">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Bienvenido a Alta Gamma Sommelier</h1>
+          </div>
+          <div class="text-center">
+            <p class="text-center">
+              Alta Gamma Sommelier es una empresa dedicada a la producción,
+              selección y comercialización de vinos de alta calidad. Con un
+              enfoque enológico refinado y una pasión por la excelencia, Alta
+              Gamma Sommelier se distingue por su compromiso con la calidad y la
+              autenticidad en cada botella que produce.
+            </p>
+            <p class="text-center">
+              Con viñedos selectos y una cuidadosa atención al proceso de
+              vinificación, Alta Gamma Sommelier ofrece una amplia gama de vinos
+              que capturan la esencia y la elegancia de las regiones
+              vitivinícolas más destacadas. Desde los frescos y vibrantes
+              blancos hasta los complejos y seductores tintos, cada vino de Alta
+              Gamma Sommelier refleja el terroir único y la artesanía experta de
+              los enólogos.
+            </p>
+            <p class="text-center">
+              Además de su compromiso con la producción de vinos excepcionales,
+              Alta Gamma Sommelier también ofrece servicios de asesoramiento
+              enológico, catas personalizadas, y experiencias de enoturismo para
+              aquellos que desean explorar y disfrutar del fascinante mundo del
+              vino.
+            </p>
+            <p class="text-center">
+              Con su nombre asociado a la excelencia y la sofisticación, Alta
+              Gamma Sommelier se posiciona como una referencia en el mundo del
+              vino, ofreciendo experiencias sensoriales memorables y elevando el
+              disfrute del vino a un nivel superior.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- HISTORIA -->
+    <section class="history">
+      <h2 class="history-title"><br />Historia</h2>
+      <div class="history-body" id="history">
+        <div class="history-grid">
+          <div class="empty">
+            <img
+              class="history-img"
+              src="assets/img/Mendoza1.jpg"
+              alt="Mendoza 1"
+            />
+          </div>
+
+          <div class="line"></div>
+          <div class="history">
+            <div class="history-date">1984</div>
+            <div class="history-company">El comienzo de un sueño</div>
+            <div class="history-description">
+              <p>
+                Una sociedad de amigos enologos, entusiastas por lograr un vino
+                de excelente calidad, compran una chacra en el valle de uco a
+                los pies de la cordillera de los andes y comienza la primera
+                plantacion de parras seleccionadas.
+              </p>
+            </div>
+          </div>
+          <div class="history_left">
+            <div class="empty d-md-none">
+              <img
+                class="history-img"
+                src="assets/img/Mendoza3.jpg"
+                alt="Mendoza 3"
+              />
+            </div>
+            <div class="history-date">1996</div>
+            <div class="history-company">El sabor dorado</div>
+            <div class="history-description">
+              <p>
+                Luego de un gran desarrollo y trabajo exhaustivo, se logra
+                trabajar con los varietales para lograr un sabor digno de la
+                realeza, un sabor de un vino unico que comienza a enamorar a sus
+                catadores.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty d-none d-md-block">
+            <img
+              class="history-img"
+              src="assets/img/Mendoza3.jpg"
+              alt="Mendoza 3"
+            />
+          </div>
+          <div class="empty">
+            <img
+              class="history-img"
+              src="assets/img/Mendoza4.jpg"
+              alt="Mendoza 4"
+            />
+          </div>
+          <div class="line"></div>
+          <div class="history">
+            <div class="history-date">2004</div>
+            <div class="history-company">De Mendoza al mundo</div>
+            <div class="history-description">
+              <p>
+                A partir del año 2004 se amplia la producción y se comienzan a
+                exportar nuestros vinos para darlos a conocer al mundo, logrando
+                dejar una huella inconfundible en el sector vitinicola.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="products-body" id="products">
+        <h2 class="product-title">PRODUCTOS</h2>
+      </div>
+      <div id="shopcontent" class="shop-content"></div>
+    </section>
+    <section class="section-container">
+      <!-- IFRAME -->
+      <div class="iframe-container">
+        <h2>Visitanos</h2>
+        <div class="visitanos">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53243.87710115909!2d-69.27090596098056!3d-33.48205898422487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967c3592b13a00a7%3A0xac742519974fc602!2sRP89%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1716681517600!5m2!1ses-419!2sar"
+          ></iframe>
+        </div>
+      </div>
+      <!-- FIN IFRAME -->
+      <!-- CONTACTOS FORMULARIO -->
+      <!-- Usamos CSS iframe_contact -->
+      <div class="contact-container">
+        <div>
+          <h2 class="contact-title">Contactanos 👇</h2>
+        </div>
+        <div class="form-container">
+          <form
+            id="contacto"
+            action="https://formsubmit.co/robledoca@gmail.com"
+            method="POST"
+          >
+            <div class="input-group">
+              <label for="name">Nombre*:</label>
+              <input required type="text" name="name" id="name" />
+              <label for="email">Email*</label>
+              <input required type="email" name="email" id="email" />
+              <label for="input-field" class="user-field">Telefono*: </label>
+              <input type="number" name="telefono" placeholder=" " required />
+              <label for="input-field" class="user-field">Provincia*: </label>
+              <input
+                type="text"
+                id="input-field"
+                name="Provincia"
+                placeholder=" "
+                required
+              />
+              <label for="input-field" class="user-field">Localidad*: </label>
+              <input type="text" name="Localidad" placeholder=" " required />
+              <label for="message">Mensaje</label>
+              <textarea
+                required
+                name="message"
+                id="message"
+                rows="6"
+              ></textarea>
+              <p class="form-p" style="text-align: center">
+                * campos obligatorios
+              </p>
+              <div class="btn-field">
+                <button id="enviar" type="submit" value="enviar">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- FIN FORMULARIO CONTACTO -->
+    </section>
+
+    <!-- Formulario para recibir novedades -->
+
+    <footer class="footer mt-auto py-3 bg-light text-center">
+      <span class="text-muted"
+        >© 2024 Alta Gamma Sommelier. Todos los derechos reservados.</span
+      >
+    </footer>
+    <!-- Scripts de Bootstrap (jQuery es requerido para Bootstrap) -->
+    <!-- Tus scripts personalizados -->
+    <script defer src="assets/js/app.js"></script>
+    <script src="assets/js/get.provincias.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/DB.js"></script>
+    <script src="assets/js/app1.js"></script>
+  </body>
+</html>

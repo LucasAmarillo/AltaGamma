@@ -1,0 +1,151 @@
+.history {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.history-grid {
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+.history-body {
+  padding: 0.5em 0.7em;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+.history-title {
+  
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  top: 5px;
+  margin: 15px;
+}
+.history-img {
+border-radius: 50%;
+width: 80%;
+margin: 0 auto;
+}
+
+.history-date {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(---text-color);
+}
+
+.history-company {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.history-position {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.history-description {
+  padding: 0;
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.history {
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.history-block {
+  margin: 0 auto;
+}
+
+@media (min-width: 950px) {
+  .history-title {
+    position: relative;
+    font-size: 30px;
+    margin: 15px 0;
+    top: 10px;
+  }
+
+  .history-date {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .history-company {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .history-position {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .history-description {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.7;
+  }
+
+  .history {
+    padding: 0;
+  }
+
+  .history-block {
+    margin: 0 auto;
+  }
+
+  .history_left {
+    text-align: right;
+  }
+
+  .history-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+    padding: 50px;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .line {
+    background-color: var(--line-color);
+    position: relative;
+  }
+
+  .line::before,
+  .line::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--line-color);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -20px;
+    left: -9px;
+  }
+
+  .line::after {
+    top: 100%;
+    z-index: 1;
+  }
+  
+}
